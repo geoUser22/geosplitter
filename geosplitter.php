@@ -59,8 +59,8 @@ if ($err) {
   file_put_contents($file, $person, FILE_APPEND | LOCK_EX);
   header('Location: https://trade.algo-bit.com?p1=unimail4');
 }else{
-  //header('Location: https://trade.algo-bit.com?p1=unimail5');
- 	header('Location: http://converto-force.com/r/333/44/0/p');
+  header('Location: https://trade.algo-bit.com?p1=unimail5');
+ 	
 };
 }
 }
