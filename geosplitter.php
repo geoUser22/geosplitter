@@ -1,6 +1,7 @@
 <?php
 $ip=$_SERVER['REMOTE_ADDR'];
 
+
 if(isset($_GET["a"])){
   $file = 'q.txt';
   $person = "ras";
